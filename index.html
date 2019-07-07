@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags & Viewport-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css link -->
+    <style>
+        /* small Laptops */
+        @media screen and (max-width:1500px) {
+            body {
+                position: fixed;
+                font-size: 18px;
+                color: #777777;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                line-height: 34px;
+                background-color: lightseagreen;
+                color: white;
+                width: 100%;
+            }
+
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
+                color: white;
+                text-align: center;
+            }
+
+        }
+
+        /* Phones */
+        @media screen and (max-width:580px) {
+            div {
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+        }
+    </style>
+    <!--Google font--->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Bootstrap NavBar -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+
+            <a class="nav-link active" href="#">Angel Cochachez</a>
+
+            <!--<a class="p-3 mb-2 bg-info text-white">Angel Cochachez</a>-->
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <!-- Responsive Layout - Bootstrap Grid -->
+
+    <div class="container">
+        <div class="row">
+            <h3>About Me</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <img class="img-responsive" src="photo1.jpg" class="img-rounded" alt="responsive imagen"
+                    style="width:350px; height:400px; float:left; margin:0px;"></div>
+            <div class="col-md-6">
+                <p>I'm passionate UI/UX Designer and Front-End Developer creating modern and responsive design for
+                    Web
+                    and Mobile. I believe that learning those powerful languages such as; JavaScript,
+                    HTML, CSS, and several other available resources make me feel confident writing code; it
+                    challenges
+                    me to learn new skills and master it into a new level in order to reach my goals.</p>
+                <p>To be a developer, you don't need to be a server exper, but you need to understand the basics.
+                    There is one thing to remember when we see that awesome looking site. or when you are amazed
+                    with funtionalities of a web plugin</p>
+                <p>The debugging part is what we never see in movies, and can be extremely frustrating. To be a good
+                    programer,
+                    you need to regularly flex your frustation muscle
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>I'm glad that I started taking this classes at UC Berkeley Extension because I was studing it on
+                    my
+                    own, however; it wasnt enought for me to learn
+                    other new languages because of the hight level of understanding that required to ask in class a
+                    lot
+                    of question.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="footer">
+            <p>Sticky footer</p>
+        </div>
+    </footer>
+</body>
+
+</html>
